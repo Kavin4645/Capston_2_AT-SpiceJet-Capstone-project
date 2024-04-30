@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-30T22:16:39 IST" name="Suite" finished-at="2024-04-30T22:18:04 IST" duration-ms="85174">
+    <groups>
+    </groups>
+    <test started-at="2024-04-30T22:16:39 IST" name="Test" finished-at="2024-04-30T22:18:04 IST" duration-ms="85174">
+      <class name="TestCasesSpiceJet.TC_05_StatusTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@752325ad]" started-at="2024-04-30T22:16:39 IST" name="setup" finished-at="2024-04-30T22:16:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@752325ad]" started-at="2024-04-30T22:17:45 IST" name="testDetails" finished-at="2024-04-30T22:17:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@752325ad]" started-at="2024-04-30T22:17:45 IST" name="start" finished-at="2024-04-30T22:17:51 IST" duration-ms="6177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_05_StatusTest()[pri:5, instance:TestCasesSpiceJet.TC_05_StatusTest@752325ad]" started-at="2024-04-30T22:17:51 IST" name="TC_05_StatusTest" finished-at="2024-04-30T22:18:04 IST" duration-ms="12576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_StatusTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@752325ad]" started-at="2024-04-30T22:18:04 IST" name="close" finished-at="2024-04-30T22:18:04 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_05_StatusTest -->
+      <class name="TestCasesSpiceJet.TC_04_BookingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@2a5c8d3f]" started-at="2024-04-30T22:16:39 IST" name="setup" finished-at="2024-04-30T22:16:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@2a5c8d3f]" started-at="2024-04-30T22:17:25 IST" name="start" finished-at="2024-04-30T22:17:31 IST" duration-ms="6237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@2a5c8d3f]" started-at="2024-04-30T22:17:25 IST" name="testDetails" finished-at="2024-04-30T22:17:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="TC_04_BookingPageTest()[pri:4, instance:TestCasesSpiceJet.TC_04_BookingPageTest@2a5c8d3f]" started-at="2024-04-30T22:17:31 IST" name="TC_04_BookingPageTest" finished-at="2024-04-30T22:17:45 IST" duration-ms="13755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_BookingPageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@2a5c8d3f]" started-at="2024-04-30T22:17:45 IST" name="close" finished-at="2024-04-30T22:17:45 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_04_BookingPageTest -->
+      <class name="TestCasesSpiceJet.TC_02_OneWayTripTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@24aed80c]" started-at="2024-04-30T22:16:39 IST" name="setup" finished-at="2024-04-30T22:16:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@24aed80c]" started-at="2024-04-30T22:16:53 IST" name="start" finished-at="2024-04-30T22:17:00 IST" duration-ms="6984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@24aed80c]" started-at="2024-04-30T22:16:53 IST" name="testDetails" finished-at="2024-04-30T22:16:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="TC_02_OneWayTripTest()[pri:2, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@24aed80c]" started-at="2024-04-30T22:17:00 IST" name="TC_02_OneWayTripTest" finished-at="2024-04-30T22:17:09 IST" duration-ms="8547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_OneWayTripTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@24aed80c]" started-at="2024-04-30T22:17:09 IST" name="close" finished-at="2024-04-30T22:17:09 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_02_OneWayTripTest -->
+      <class name="TestCasesSpiceJet.TC_01_LoginTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:16:38 IST" name="StartReport" finished-at="2024-04-30T22:16:39 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:16:39 IST" name="setup" finished-at="2024-04-30T22:16:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:16:39 IST" name="testDetails" finished-at="2024-04-30T22:16:39 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:16:39 IST" name="start" finished-at="2024-04-30T22:16:48 IST" duration-ms="9483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_01_LoginTest()[pri:1, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:16:48 IST" name="TC_01_LoginTest" finished-at="2024-04-30T22:16:53 IST" duration-ms="4431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:16:53 IST" name="close" finished-at="2024-04-30T22:16:53 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@ba2f4ec]" started-at="2024-04-30T22:18:04 IST" name="endReport" finished-at="2024-04-30T22:18:05 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCasesSpiceJet.TC_01_LoginTest -->
+      <class name="TestCasesSpiceJet.TC_03RoundWayTripTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@3a52dba3]" started-at="2024-04-30T22:16:39 IST" name="setup" finished-at="2024-04-30T22:16:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@3a52dba3]" started-at="2024-04-30T22:17:09 IST" name="testDetails" finished-at="2024-04-30T22:17:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@3a52dba3]" started-at="2024-04-30T22:17:09 IST" name="start" finished-at="2024-04-30T22:17:16 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_03RoundWayTripTest()[pri:3, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@3a52dba3]" started-at="2024-04-30T22:17:16 IST" name="TC_03RoundWayTripTest" finished-at="2024-04-30T22:17:24 IST" duration-ms="8159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03RoundWayTripTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@3a52dba3]" started-at="2024-04-30T22:17:24 IST" name="close" finished-at="2024-04-30T22:17:25 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_03RoundWayTripTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
