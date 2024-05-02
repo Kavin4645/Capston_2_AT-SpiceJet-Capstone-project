@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T18:51:25 IST" name="Suite" finished-at="2024-05-02T18:53:43 IST" duration-ms="138719">
+    <groups>
+    </groups>
+    <test started-at="2024-05-02T18:51:25 IST" name="Test" finished-at="2024-05-02T18:53:43 IST" duration-ms="138719">
+      <class name="TestCasesSpiceJet.TC_05_StatusTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@4efbca5a]" started-at="2024-05-02T18:51:25 IST" name="setup" finished-at="2024-05-02T18:51:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@4efbca5a]" started-at="2024-05-02T18:53:27 IST" name="testDetails" finished-at="2024-05-02T18:53:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@4efbca5a]" started-at="2024-05-02T18:53:27 IST" name="start" finished-at="2024-05-02T18:53:32 IST" duration-ms="5023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_05_StatusTest()[pri:5, instance:TestCasesSpiceJet.TC_05_StatusTest@4efbca5a]" started-at="2024-05-02T18:53:32 IST" name="TC_05_StatusTest" finished-at="2024-05-02T18:53:43 IST" duration-ms="11558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_StatusTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_05_StatusTest@4efbca5a]" started-at="2024-05-02T18:53:43 IST" name="close" finished-at="2024-05-02T18:53:43 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_05_StatusTest -->
+      <class name="TestCasesSpiceJet.TC_04_BookingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@6069db50]" started-at="2024-05-02T18:51:25 IST" name="setup" finished-at="2024-05-02T18:51:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@6069db50]" started-at="2024-05-02T18:53:11 IST" name="testDetails" finished-at="2024-05-02T18:53:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@6069db50]" started-at="2024-05-02T18:53:11 IST" name="start" finished-at="2024-05-02T18:53:16 IST" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_04_BookingPageTest()[pri:4, instance:TestCasesSpiceJet.TC_04_BookingPageTest@6069db50]" started-at="2024-05-02T18:53:16 IST" name="TC_04_BookingPageTest" finished-at="2024-05-02T18:53:27 IST" duration-ms="10886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_BookingPageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_04_BookingPageTest@6069db50]" started-at="2024-05-02T18:53:27 IST" name="close" finished-at="2024-05-02T18:53:27 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_04_BookingPageTest -->
+      <class name="TestCasesSpiceJet.TC_02_OneWayTripTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@49139829]" started-at="2024-05-02T18:51:25 IST" name="setup" finished-at="2024-05-02T18:51:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@49139829]" started-at="2024-05-02T18:52:43 IST" name="testDetails" finished-at="2024-05-02T18:52:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@49139829]" started-at="2024-05-02T18:52:43 IST" name="start" finished-at="2024-05-02T18:52:48 IST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_02_OneWayTripTest()[pri:2, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@49139829]" started-at="2024-05-02T18:52:48 IST" name="TC_02_OneWayTripTest" finished-at="2024-05-02T18:52:54 IST" duration-ms="6027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_OneWayTripTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_02_OneWayTripTest@49139829]" started-at="2024-05-02T18:52:54 IST" name="close" finished-at="2024-05-02T18:52:54 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_02_OneWayTripTest -->
+      <class name="TestCasesSpiceJet.TC_01_LoginTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:25 IST" name="StartReport" finished-at="2024-05-02T18:51:25 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:25 IST" name="setup" finished-at="2024-05-02T18:51:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:25 IST" name="testDetails" finished-at="2024-05-02T18:51:25 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:25 IST" name="start" finished-at="2024-05-02T18:51:33 IST" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_01_LoginTest(java.lang.String,java.lang.String)[pri:1, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:33 IST" name="TC_01_LoginTest" data-provider="getFromExcel" finished-at="2024-05-02T18:51:38 IST" duration-ms="4637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6382724043]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testuser03@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:38 IST" name="close" finished-at="2024-05-02T18:51:38 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:38 IST" name="start" finished-at="2024-05-02T18:51:43 IST" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_01_LoginTest(java.lang.String,java.lang.String)[pri:1, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:51:43 IST" name="TC_01_LoginTest" data-provider="getFromExcel" finished-at="2024-05-02T18:52:10 IST" duration-ms="26521" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6382824043]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestUser@124]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Hi Test']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f12ae01c30a4358bbe89dfd91efc1632, findElement {using=xpath, value=//div[text()='Hi Test']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65382/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f12ae01c30a4358bbe89dfd91efc1632]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Hi Test']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f12ae01c30a4358bbe89dfd91efc1632, findElement {using=xpath, value=//div[text()='Hi Test']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65382/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f12ae01c30a4358bbe89dfd91efc1632
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at UtilesSpiceJet.UtilesSJ.Clickboo(UtilesSJ.java:98)
+at SpiceJet_Project.Guvi_Project_02.LoginAClass.LoginAClass(LoginAClass.java:42)
+at TestCasesSpiceJet.TC_01_LoginTest.TC_01_LoginTest(TC_01_LoginTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:52:10 IST" name="close" finished-at="2024-05-02T18:52:10 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:52:10 IST" name="start" finished-at="2024-05-02T18:52:16 IST" duration-ms="5879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_01_LoginTest(java.lang.String,java.lang.String)[pri:1, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:52:16 IST" name="TC_01_LoginTest" data-provider="getFromExcel" finished-at="2024-05-02T18:52:42 IST" duration-ms="26380" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6382724243]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestUser@125]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Hi Test']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77b95c19bcaa761e7043daf9e626db97, findElement {using=xpath, value=//div[text()='Hi Test']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65466/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77b95c19bcaa761e7043daf9e626db97]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Hi Test']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77b95c19bcaa761e7043daf9e626db97, findElement {using=xpath, value=//div[text()='Hi Test']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65466/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77b95c19bcaa761e7043daf9e626db97
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at UtilesSpiceJet.UtilesSJ.Clickboo(UtilesSJ.java:98)
+at SpiceJet_Project.Guvi_Project_02.LoginAClass.LoginAClass(LoginAClass.java:42)
+at TestCasesSpiceJet.TC_01_LoginTest.TC_01_LoginTest(TC_01_LoginTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:52:42 IST" name="close" finished-at="2024-05-02T18:52:43 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCasesSpiceJet.TC_01_LoginTest@2b662a77]" started-at="2024-05-02T18:53:44 IST" name="endReport" finished-at="2024-05-02T18:53:44 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCasesSpiceJet.TC_01_LoginTest -->
+      <class name="TestCasesSpiceJet.TC_03RoundWayTripTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@9597028]" started-at="2024-05-02T18:51:25 IST" name="setup" finished-at="2024-05-02T18:51:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@9597028]" started-at="2024-05-02T18:52:54 IST" name="testDetails" finished-at="2024-05-02T18:52:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@9597028]" started-at="2024-05-02T18:52:54 IST" name="start" finished-at="2024-05-02T18:52:59 IST" duration-ms="4964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC_03RoundWayTripTest()[pri:3, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@9597028]" started-at="2024-05-02T18:52:59 IST" name="TC_03RoundWayTripTest" finished-at="2024-05-02T18:53:11 IST" duration-ms="11753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03RoundWayTripTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCasesSpiceJet.TC_03RoundWayTripTest@9597028]" started-at="2024-05-02T18:53:11 IST" name="close" finished-at="2024-05-02T18:53:11 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCasesSpiceJet.TC_03RoundWayTripTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
