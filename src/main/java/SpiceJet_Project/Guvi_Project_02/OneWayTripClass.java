@@ -17,7 +17,7 @@ public class OneWayTripClass extends BasicSJ {
 	@FindBy(xpath = "//div[@data-testid='departure-date-dropdown-label-test-id']")
 	WebElement Date;
 
-	@FindBy(xpath = "//*[@id=\"main-container\"]/div/div[1]/div[3]/div[2]/div[4]/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/div[3]/div[1]/div[5]/div")
+	@FindBy(xpath = "//div[@data-testid='undefined-month-May-2024']//div[@data-testid='undefined-calendar-day-25']")
 	WebElement SelectDate;
 
 	@FindBy(xpath = " //div[text()='Passengers']")

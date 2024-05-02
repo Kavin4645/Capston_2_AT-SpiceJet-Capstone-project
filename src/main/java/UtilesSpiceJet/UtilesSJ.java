@@ -7,7 +7,8 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
-
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -40,6 +41,7 @@ public class UtilesSJ {
 	public String testAuthor;
 	public static ExtentTest test;
 	public static ExtentReports extent;
+	public String sheetName;
 
 	public static String readProperty(String key) throws IOException {
 		String projectPath = System.getProperty("user.dir");
@@ -92,6 +94,13 @@ public class UtilesSJ {
 	public static void Click(WebElement element) {
 	    element.click();
 	}
+	public static boolean Clickboo(WebElement element) {
+	    element.getText();
+	    return true;
+		
+	}
+	
+	
 	public static void enter(WebElement element,String text) {
 		element.click();
 		element.sendKeys(text);
@@ -126,6 +135,25 @@ public class UtilesSJ {
 					.createScreenCaptureFromPath(projectPath + "/Screenshot/" + testName + randomnum + ".png").build());
 		}
 
+	}
+	
+public static Object[][] dataReader(String sheetName) throws IOException {
+		
+		XSSFWorkbook workBook = new XSSFWorkbook("D:/loginTestSJ.xlsx");
+		XSSFSheet sheet = workBook.getSheet(sheetName);
+		int rows = sheet.getLastRowNum();
+		int columns = sheet.getRow(0).getLastCellNum();
+		Object[][] data = new Object[rows][columns];
+		for (int r = 1; r <= rows; r++) {
+			for (int c = 0; c < columns; c++) {
+				data[r-1][c] = sheet.getRow(r).getCell(c).toString();
+				System.out.println(sheet.getRow(r).getCell(c).toString());
+			
+				
+			}
+		}
+		workBook.close();
+		return data;
 	}
 
 }

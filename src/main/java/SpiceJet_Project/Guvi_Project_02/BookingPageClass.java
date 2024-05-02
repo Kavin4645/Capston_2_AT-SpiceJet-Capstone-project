@@ -17,7 +17,7 @@ public class BookingPageClass extends BasicSJ{
 	@FindBy(xpath = "//div[@data-testid='departure-date-dropdown-label-test-id']")
 	WebElement Date;
 
-	@FindBy(xpath = "//*[@id=\"main-container\"]/div/div[1]/div[3]/div[2]/div[4]/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/div[3]/div[1]/div[5]/div")
+	@FindBy(xpath = "//div[@data-testid='undefined-month-May-2024']//div[@data-testid='undefined-calendar-day-25']")
 	WebElement SelectDate;
 
 	@FindBy(xpath = " //div[text()='Passengers']")
@@ -74,11 +74,14 @@ public class BookingPageClass extends BasicSJ{
 	@FindBy(id = "sc-member-mobile-number-input-box")
 	WebElement paswsengerphonenumber;
 	
-	@FindBy(id = "traveller-info-continue-cta")
+	@FindBy(xpath = "//div[@data-testid='traveller-info-continue-cta']")
 	WebElement continue1;
 	
-	@FindBy(xpath = "//div[@class='css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-6ity3w r-d9fdf6 r-9qu9m4 r-ah5dr5 r-1otgn73'][3]")
+	@FindBy(xpath = "//*[@id=\"travellers-view\"]/div[2]/div/div/div[2]")
 	WebElement continue2;
+	
+	@FindBy(xpath ="")
+	WebElement  CreNumber;
 
 	public BookingPageClass(WebDriver driver) {
 		this.driver = driver;
@@ -101,7 +104,7 @@ public class BookingPageClass extends BasicSJ{
 
 	}
 	
-	public  StatusClass book(String fname, String lname, String pNo, String email, String city) throws InterruptedException {
+	public  BookingPageClass book(String fname, String lname, String pNo, String email, String city) throws InterruptedException {
 		Thread.sleep(1000);
 		ExpliciteWait(ClickMr);
 		Click(ClickMr);
@@ -113,8 +116,19 @@ public class BookingPageClass extends BasicSJ{
 		Click(SelectCountry);
 		enter(City, city);
 		Click(CheckBox);
-		return new StatusClass(driver);
+		Click(continue1);
+		
+		Click(continue2);
+		Click(continue2);
+		return this;
 
 	}
+	
+	/*public StatusClass payment (String crNumb) {
+		enter(CreNumber, crNumb);
+		return new StatusClass(driver);
+	}*/
+
+	
 
 }

@@ -1,5 +1,7 @@
 package TestCasesSpiceJet;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -13,13 +15,14 @@ public class TC_01_LoginTest extends BasicSJ{
 		testDescription = "Navigating to the SpiceJet Flight Booking website and login";
 		testCategory = "Regression";
 		testAuthor = "Kavin Vikram ";
-		
+		sheetName = "Sheet1";
 	}
-	@Test(priority = 1)
-	public void TC_01_LoginTest() throws Exception {
+	@Test(dataProvider="getFromExcel",priority = 1)
+	public void TC_01_LoginTest(String moblileno,String Password) throws Exception {
 		LoginAClass lc=new LoginAClass(driver);
 		lc.ClickLogin();
-		lc.LoginAClass("6382724043", "TestUser@123");
+		lc.LoginAClass(moblileno, Password);
+		
 		lc.reportStep(testCategory, testAuthor, testName);
 		
 	}

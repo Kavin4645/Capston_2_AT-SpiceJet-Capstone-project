@@ -19,7 +19,8 @@ public class LoginAClass extends BasicSJ{
 	WebElement LoginPassword;
 	@FindBy(xpath ="//div[@data-testid='login-cta']")
 	WebElement ClickLogin;
-	
+	@FindBy(xpath ="//div[text()='Hi Test']")
+	WebElement validLogin;
 	
 
 
@@ -37,6 +38,14 @@ public class LoginAClass extends BasicSJ{
 		Thread.sleep(10);
 		enter(LoginMobilNo, moblileno);
 		enter(LoginPassword, Password);
+		Click(ClickLogin);
+		if (Clickboo(validLogin)) {
+			 test.pass("If the Hi Test is visible it is true");
+		} else {
+             test.fail("If the Hi Test is visible it is false");
+            
+		}
+		
 		return new OneWayTripClass(driver);
 	}
 	

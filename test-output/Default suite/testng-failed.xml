@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCasesSpiceJet.TC_04_BookingPageTest">
+      <class name="TestCasesSpiceJet.TC_01_LoginTest">
         <methods>
-          <include name="setup"/>
+          <include name="TC_01_LoginTest" invocation-numbers="1 2"/>
           <include name="start"/>
           <include name="testDetails"/>
           <include name="endReport"/>
           <include name="StartReport"/>
           <include name="close"/>
-          <include name="TC_04_BookingPageTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- TestCasesSpiceJet.TC_04_BookingPageTest -->
+      </class> <!-- TestCasesSpiceJet.TC_01_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

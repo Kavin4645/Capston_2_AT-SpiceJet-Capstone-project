@@ -19,7 +19,8 @@ public class TC_04_BookingPageTest extends BasicSJ{
 		BookingPageClass bp =new BookingPageClass(driver);
 		bp.Ticketbooking("del");
 		bp.book("Test", "User", "6382724043", "testuser03@gmail.com", "Tiruppur");
-	    bp.reportStep(testCategory, testAuthor, testName);
+	  //  bp.payment("5572316808073004");
+		bp.reportStep(testCategory, testAuthor, testName);
 	    
 	}
 
